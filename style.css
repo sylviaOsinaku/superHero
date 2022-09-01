@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+button{
+  background-color: indigo;
+  color: white;
+  border: none;
+  padding: .65em 1.5em;
+  border-radius: 15px;
+  cursor: pointer;
+  transition:background-color 0.15s ,color 0.15s, border 0.15s;
+}
+button:active{
+  background-color: white;
+  color: indigo;
+  border: 1px solid;
+  border-color: indigo;
+}
